@@ -1,0 +1,93 @@
+body {
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    max-width: 1175px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.parquenatural {
+    color:#5F8F11;
+}
+
+.sierrabicuerca {
+    color:#BF823B;
+}
+
+.contenido {
+    border: lightgray 1px solid;
+    padding: 20px;
+    float: right;
+    position: relative;
+    width: 950px;
+    box-shadow: 0px 0px 30px rgb(189 189 189) inset;
+}
+
+h2 {
+    color: #70AF0A;
+    border-bottom: lightgray 1px solid;
+}
+
+h3 {
+    color: #BF823B;
+}
+
+.indice {
+    float: left;
+    position: relative;
+    width: 150px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e2bd92;
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(87, 87, 87, 0));
+    border: lightgray 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #befdb1;
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(87, 87, 87, 0));
+    border: lightgray 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.seleccionado {
+    background-color: #e2bd92;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    float: left;
+    position: relative;
+    margin-left: 350px;
+    color: lightgrey;
+    font-style: italic;
+}
+
+.subrayado {
+    text-decoration: underline;
+}
